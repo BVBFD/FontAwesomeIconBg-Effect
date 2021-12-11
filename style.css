@@ -69,6 +69,9 @@ section .row div:nth-child(2) {
   }
 }
 /* ketframes transform을 통해서 구간 설정을 통해서 속도 조절을 함 */
+/* 이런 형식은 첫번째 형식을 무조건 뒤로 빼고  */
+/* 두번째 형식은 원점에서 첫번쨰 형식 100% 지점 똑같은 지점까지 100% 지점 설정 */
+/* 그리고 나서 시작할때는 animation-delay를 통해서 절반이 지난 시점에서 시작하도록 즉 기존 첫번째 형식 자리에서 시작하도록 해야함 */
 
 section .row:nth-child(even) div {
   animation: animate3 80s linear infinite;
