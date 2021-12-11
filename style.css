@@ -48,6 +48,7 @@ section .row div:nth-child(2) {
   animation: animate2 80s linear infinite;
   animation-delay: -40s;
 }
+/* animation-delay를 통해서 초기 모양 설정을 한다. */
 
 @keyframes animate {
   0% {
@@ -66,6 +67,7 @@ section .row div:nth-child(2) {
     transform: translateX(-200%);
   }
 }
+/* ketframes transform을 통해서 구간 설정을 통해서 속도 조절을 함 */
 
 section .row:nth-child(even) div {
   animation: animate3 80s linear infinite;
